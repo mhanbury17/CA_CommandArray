@@ -176,6 +176,7 @@ namespace CommandArray
             commandsString = new string[commands.Length];
             DisplayHeader("Save Finch Commands");
 
+
             Console.WriteLine($"The data will be saved to {datapath}.");
             DisplayContinuePrompt();
             
